@@ -21,5 +21,5 @@ public interface IStartup
     /// Configures the application.
     /// </summary>
     /// <param name="app">An <see cref="IApplicationBuilder"/> for the app to configure.</param>
-    void Configure(IApplicationBuilder app);
+    vommid Configure(IApplicationBuilder app);
 }
