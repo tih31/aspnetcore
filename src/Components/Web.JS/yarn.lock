@@ -988,16 +988,22 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@microsoft/dotnet-js-interop@link:../../JSInterop/Microsoft.JSInterop.JS/src":
-  version "0.0.0"
-  uid ""
+  version "8.0.0-dev"
 
 "@microsoft/signalr-protocol-msgpack@link:../../SignalR/clients/ts/signalr-protocol-msgpack":
-  version "0.0.0"
-  uid ""
+  version "5.0.0-dev"
+  dependencies:
+    "@microsoft/signalr" "link:../../SignalR/clients/ts/signalr"
+    "@msgpack/msgpack" "^2.7.0"
 
 "@microsoft/signalr@link:../../SignalR/clients/ts/signalr":
-  version "0.0.0"
-  uid ""
+  version "5.0.0-dev"
+  dependencies:
+    abort-controller "^3.0.0"
+    eventsource "^2.0.2"
+    fetch-cookie "^2.0.3"
+    node-fetch "^2.6.7"
+    ws "^7.4.5"
 
 "@msgpack/msgpack@^2.7.0":
   version "2.8.0"
@@ -2537,9 +2543,9 @@ semver@^7.3.4, semver@^7.3.7:
     lru-cache "^6.0.0"
 
 serialize-javascript@^6.0.0:
-  version "6.0.0"
-  resolved "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public-npm/npm/registry/serialize-javascript/-/serialize-javascript-6.0.0.tgz#efae5d88f45d7924141da8b5c3a7a7e663fefeb8"
-  integrity sha1-765diPRdeSQUHai1w6en5mP+/rg=
+  version "6.0.2"
+  resolved "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public-npm/npm/registry/serialize-javascript/-/serialize-javascript-6.0.2.tgz#defa1e055c83bf6d59ea805d8da862254eb6a6c2"
+  integrity sha1-3voeBVyDv21Z6oBdjahiJU62psI=
   dependencies:
     randombytes "^2.1.0"
 
